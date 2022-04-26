@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
   width: 100%;
 }
@@ -106,18 +106,18 @@ body {
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  /*color: #fff;*/
 }
 
 header,
 footer {
-  background-color: #222;
+  /*background-color: #222;*/
   height: 80px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
+  /*background-color: #ccc;*/
   height: 250px;
   width: 100%;
 }
@@ -128,28 +128,80 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: lightgrey;
 }
-
+header {
+    display: flex;
+    justify-content: flex-start;
+    /*padding: 30px 30px;*/
+    margin-top: 30px;
+    font-size: 5rem;
+}
+main p span {
+    font-weight: bold;
+}
+main {
+    display: flex;
+    justify-content: flex-start;
+    /*padding: 30px 30px;*/
+    font-size: 2rem;
+    border-bottom: 1px solid lightgray;
+}
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .flex-items {
-  color: #fff;
+  color: lightgrey;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1rem;
+  /*background-color: #f16059;*/
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
+#div-2, #div-3 {
+    border-left: 1px solid lightgrey;
+    padding-left: 34px;
+}
+footer {
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* I failed at putting linked icons inline w/o list style...
 
+#social-media a {
+    color: #C49075;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#social-media ul {
+    list-style:square;
+}
+#social-media ul li {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     list-style: none;
+     display: inline-flex;
+     list-style:square;
+
+}
+#social-media ul img {
+    padding-right: 48px;
+}*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
